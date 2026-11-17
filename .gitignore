@@ -1,0 +1,25 @@
+# secrets and runtime data
+.env
+data/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# node
+node_modules/
+dist/
+dev-dist/
+*.tsbuildinfo
+
+# editors / OS
+.DS_Store
+.vscode/
+.idea/
+
+# eval runs (contain the hidden answer key)
+evals/out/

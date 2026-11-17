@@ -1,0 +1,115 @@
+{
+ "width": 1456,
+ "height": 819,
+ "elements": [
+  {
+   "id": "p1_e0",
+   "kind": "text",
+   "bbox": [
+    91.0,
+    70.4,
+    866.0,
+    130.4
+   ],
+   "text": "Eigenvalues and Eigenvectors"
+  },
+  {
+   "id": "p1_e1",
+   "kind": "text",
+   "bbox": [
+    91.0,
+    181.4,
+    1086.7,
+    220.2
+   ],
+   "text": "A nonzero vector v is an eigenvector of a square matrix A if"
+  },
+  {
+   "id": "p1_e2",
+   "kind": "text",
+   "bbox": [
+    166.8,
+    247.9,
+    402.1,
+    307.9
+   ],
+   "text": "A v = \u03bb v"
+  },
+  {
+   "id": "p1_e3",
+   "kind": "text",
+   "bbox": [
+    91.0,
+    348.2,
+    1201.6,
+    387.0
+   ],
+   "text": "The scalar \u03bb is the eigenvalue: A only stretches v, it never turns it."
+  },
+  {
+   "id": "p1_e4",
+   "kind": "text",
+   "bbox": [
+    91.0,
+    439.2,
+    804.6,
+    478.0
+   ],
+   "text": "To find \u03bb, solve the characteristic equation"
+  },
+  {
+   "id": "p1_e5",
+   "kind": "text",
+   "bbox": [
+    1243.7,
+    444.6,
+    1339.0,
+    472.8
+   ],
+   "text": "Av = \u03bbv"
+  },
+  {
+   "id": "p1_e6",
+   "kind": "drawing",
+   "bbox": [
+    1122.3,
+    470.2,
+    1289.2,
+    637.0
+   ]
+  },
+  {
+   "id": "p1_e7",
+   "kind": "text",
+   "bbox": [
+    166.8,
+    505.7,
+    557.1,
+    565.7
+   ],
+   "text": "det(A \u2212 \u03bbI) = 0"
+  },
+  {
+   "id": "p1_e8",
+   "kind": "text",
+   "bbox": [
+    1198.2,
+    569.0,
+    1212.5,
+    597.2
+   ],
+   "text": "v"
+  },
+  {
+   "id": "p1_e9",
+   "kind": "text",
+   "bbox": [
+    91.0,
+    621.2,
+    992.1,
+    660.0
+   ],
+   "text": "Then each eigenvector lies in the null space of A \u2212 \u03bbI."
+  }
+ ]
+}

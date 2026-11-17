@@ -1,0 +1,18 @@
+[
+  { "op": "underline", "target": "p1_e0", "say": "Today's big idea: eigenvalues and eigenvectors." },
+  { "op": "highlight", "target": "p1_e1", "say": "An eigenvector is a nonzero vector with a special relationship to the matrix A." },
+  { "op": "circle", "target": "p1_e2", "say": "Here it is. Multiplying by A gives back the same vector, only scaled by lambda." },
+  { "op": "write_text", "text": "same direction!", "near": "p1_e2", "side": "right", "say": "The direction never changes." },
+  { "op": "arrow", "from": "p1_e2", "to": "p1_e6", "say": "You can see that in the picture: v and A v lie on the same line." },
+  { "op": "pause", "ms": 600, "say": "" },
+  { "op": "underline", "target": "p1_e4", "say": "So how do we find lambda?" },
+  { "op": "circle", "target": "p1_e7", "say": "We solve the characteristic equation." },
+  { "op": "write_math", "latex": "(A-\\lambda I)\\,v = 0", "near": "p1_e7", "side": "right", "say": "It comes from moving everything to one side: A minus lambda I, times v, equals zero." },
+  { "op": "arrow", "from": { "x": 640, "y": 575 }, "to": "p1_e9", "color": "green", "say": "A nonzero v can only exist if this matrix is singular, which is why v lives in its null space." },
+  { "op": "frobnicate", "target": "p1_e1", "say": "Invalid on purpose: unknown op." },
+  { "op": "circle", "target": "p9_e99", "say": "Invalid on purpose: unknown element." },
+  { "op": "write_math", "latex": "\\frac{1}{", "near": "p1_e9", "side": "below", "say": "Invalid on purpose: broken LaTeX." },
+  { "op": "clear", "layer": "walkthrough", "say": "Let me clear the board and summarise." },
+  { "op": "write_math", "latex": "\\det(A-\\lambda I)=0 \\;\\Rightarrow\\; \\lambda_1,\\dots,\\lambda_n", "near": "p1_e9", "side": "below", "say": "Solve the determinant equation to get every lambda." },
+  { "op": "write_text", "text": "then solve (A - λI)v = 0 for each λ", "near": "p1_e7", "side": "right", "color": "purple", "say": "Then solve for v, once per eigenvalue." }
+]
